@@ -38,7 +38,9 @@ Pour le testkit :
 
 
 cross publish sur bintray :
+
     + publish          // cross publish sur les version scala
+    
     bintrayRelease     // crée la release de la version
 
 
