@@ -1,12 +1,12 @@
-name := "pactole-project"
+//name := "pactole-project"
 
 version in ThisBuild := "1.1.0"
 
 organization in ThisBuild := "com.kreactive"
 
-scalaVersion in ThisBuild := "2.11.8"
+scalaVersion in Global := "2.12.4"
 
-crossScalaVersions in ThisBuild := Seq("2.11.8", "2.12.2")
+crossScalaVersions in ThisBuild := Seq("2.11.8", "2.12.4")
 
 scalacOptions in ThisBuild ++= Seq("-deprecation")
 
@@ -16,9 +16,12 @@ lazy val lib = project in file("lib") dependsOn (testkit % "test")
 
 lazy val http = project in file("http")
 
+bintrayReleaseOnPublish in ThisBuild := false
+
+bintrayOrganization in ThisBuild := Some("kreactive")
 
 licenses in ThisBuild := List(
-  ("Apache License, Version 2.0",
+  ("Apache-2.0",
     url("https://www.apache.org/licenses/LICENSE-2.0"))
 )
 
