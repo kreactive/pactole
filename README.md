@@ -25,15 +25,15 @@ Le sous-projet `pactole-testkit` permet de simplifier l'utilisation des probes d
 
 Pour la lib :
 
-    libraryDependencies += "com.kreactive" %% "pactole" % "0.3.5"
+    libraryDependencies += "com.kreactive" %% "pactole" % "2.1.0"
     
 Pour la lib http :
 
-    libraryDependencies += "com.kreactive" %% "pactole-flow-persistence" % "0.3.5"
+    libraryDependencies += "com.kreactive" %% "pactole-flow-persistence" % "2.1.0"
     
 Pour le testkit :
     
-    libraryDependencies += "com.kreactive" %% "pactole-testkit" % "0.3.5" % "test"
+    libraryDependencies += "com.kreactive" %% "pactole-testkit" % "2.1.0" % "test"
 
 
 
