@@ -1,12 +1,12 @@
 //name := "pactole-project"
 
-version in ThisBuild := "1.1.0"
+version in ThisBuild := "2.1.0"
 
 organization in ThisBuild := "com.kreactive"
 
 scalaVersion in Global := "2.12.4"
 
-crossScalaVersions in ThisBuild := Seq("2.11.8", "2.12.4")
+crossScalaVersions in ThisBuild := Seq("2.11.11", "2.12.4")
 
 scalacOptions in ThisBuild ++= Seq("-deprecation")
 
