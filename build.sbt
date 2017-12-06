@@ -1,6 +1,6 @@
 //name := "pactole-project"
 
-version in ThisBuild := "2.1.0"
+version in ThisBuild := "2.2.0"
 
 organization in ThisBuild := "com.kreactive"
 
@@ -34,3 +34,6 @@ credentials += Credentials(Path.userHome / ".sbt" / ".credentials")
 publishMavenStyle := true
 
 publishArtifact := false
+
+// don't publish root artifact
+//packagedArtifacts in file(".") := Map.empty
